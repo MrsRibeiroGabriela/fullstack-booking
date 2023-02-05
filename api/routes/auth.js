@@ -1,18 +1,11 @@
 //auth and register endpoint
-import express  from "express";
+import express from "express";
+import { register, login } from "../controllers/auth.js";
 
 const router = express.Router();
-//create
-//update
-//delete
-//get
-//get all
-router.get('/', (req, res) => {
-  res.send('This is auth endpoint');
-})
 
-router.get("/register", (req, res) => {
-  res.send("This is registration")
-})
+//register user
+router.post("/register", register);
+router.post("/login", login);
 
 export default router;
