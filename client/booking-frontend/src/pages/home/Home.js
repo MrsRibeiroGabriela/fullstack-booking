@@ -1,4 +1,4 @@
-import React from "react";
+import "./home.css";
 import Featured from "../../components/featured/Featured"
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
 import Footer from "../../components/footer/Footer";
