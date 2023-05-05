@@ -28,3 +28,7 @@
   color: #003580;
 }
 
+.navUserName {
+  text-transform: capitalize;
+}
+
